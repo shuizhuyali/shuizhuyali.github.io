@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.leguanderen.com/article/xian-zhi-che-ku-gai-ju-zhu-wo-shi.html</loc>
+    
+    <lastmod>2025-10-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.leguanderen.com/article/zhong-guo-dian-xin-da-wan-qu-lan-qia-ao-men-ban-ping-ce.html</loc>
     
     <lastmod>2025-10-10</lastmod>
@@ -72,6 +81,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://www.leguanderen.com/tags/%E5%B8%96%E5%AD%90/</loc>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
