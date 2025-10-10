@@ -6,7 +6,7 @@
   <link href="https://www.leguanderen.com/rss.xml" rel="self"/>
   
   <link href="https://www.leguanderen.com/"/>
-  <updated>2025-10-10T06:14:45.010Z</updated>
+  <updated>2025-10-10T11:58:20.906Z</updated>
   <id>https://www.leguanderen.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>发现了网易云音乐使用的新姿势</title>
+    <link href="https://www.leguanderen.com/article/fa-xian-liao-wang-yi-yun-yin-le-shi-yong-de-xin-zi-shi.html"/>
+    <id>https://www.leguanderen.com/article/fa-xian-liao-wang-yi-yun-yin-le-shi-yong-de-xin-zi-shi.html</id>
+    <published>2025-10-10T11:51:23.000Z</published>
+    <updated>2025-10-10T11:58:20.906Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我之前开通了网易云音乐的黑胶会员，一直就在听每日推荐和我收藏的歌曲。平时写博文就戴着耳机听音乐。今天忽然发现了一个宝藏功能：漫游模式。这个功能可以根据你的使用场景来选择播放的音乐。我选择了专注模式。你别说，还真挺专注。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="微头条" scheme="https://www.leguanderen.com/tags/%E5%BE%AE%E5%A4%B4%E6%9D%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>闲置车库改居住卧室</title>
@@ -78,21 +95,6 @@
     
     
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;自从家里买了一个绿联NAS以后我就开始折腾NAS的用途。家里有一个360的智能摄像头，我就想着怎么样把内存卡里的监控视频转存到NAS设备里。360摄像头官方虽然没有做直接转存NAS的功能，但它支持Onvif协议。于是，灵感来了。虽然没有做直接转存的功能，但是它支持Onvif模式啊！这就好办了！ 核心思路：在NAS上安装Easy NVR，配置Onvif参数，设置录像转存。完美！ 本文以电脑版Easy NVR为例，NAS版本绿联官方已在应用中心推送，按照官方文档安装即可。具体配置参考下文。&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>开始在头条号上写文章</title>
-    <link href="https://www.leguanderen.com/article/kai-shi-zai-tou-tiao-hao-shang-xie-wen-zhang.html"/>
-    <id>https://www.leguanderen.com/article/kai-shi-zai-tou-tiao-hao-shang-xie-wen-zhang.html</id>
-    <published>2025-10-08T13:54:03.000Z</published>
-    <updated>2025-10-08T14:09:12.103Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;为什么我开始使用头条号？&quot;&gt;&lt;a href=&quot;#为什么我开始使用头条号？&quot; class=&quot;headerlink&quot; title=&quot;为什么我开始使用头条号？&quot;&gt;&lt;/a&gt;为什么我开始使用头条号？&lt;/h2&gt;&lt;p&gt;最近开始在头条号上写文章。没什么别的原因，只因为能赚钱。在这以前，我只有一个个人博客和微信公众号。我曾经在微信公众号上花费了不少精力，可最后连我也坚持不下去了，关注量上不去，阅读量也不行。来来回回那十多个粉丝，辛苦写了半天的文章最后一分钱收益也没有。写博客是要花钱的，虽然我一年也只需要个域名的费用，但.com后缀的续费价格也不便宜。所以我选择启用头条号。&lt;/p&gt;</summary>
     
     
     
