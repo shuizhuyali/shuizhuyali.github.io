@@ -6,7 +6,7 @@
   <link href="https://www.leguanderen.com/rss.xml" rel="self"/>
   
   <link href="https://www.leguanderen.com/"/>
-  <updated>2025-10-09T12:59:48.105Z</updated>
+  <updated>2025-10-10T04:17:51.700Z</updated>
   <id>https://www.leguanderen.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中国电信大湾区蓝卡澳门版评测</title>
+    <link href="https://www.leguanderen.com/article/zhong-guo-dian-xin-da-wan-qu-lan-qia-ao-men-ban-ping-ce.html"/>
+    <id>https://www.leguanderen.com/article/zhong-guo-dian-xin-da-wan-qu-lan-qia-ao-men-ban-ping-ce.html</id>
+    <published>2025-10-10T04:15:21.000Z</published>
+    <updated>2025-10-10T04:17:51.700Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因为&lt;a href=&quot;https://www.leguanderen.com/article/gu-ge-zhang-hao-shi-yong-ao-men-shou-ji-hao-tong-guo-yan-zheng-fang-fa.html&quot;&gt;要注册谷歌账号的问题&lt;/a&gt;我需要一张境外电话卡，在网上找了好久，最后我选择了中国电信大湾区蓝卡澳门版。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>谷歌账号使用澳门手机号通过验证方法</title>
@@ -70,22 +85,6 @@
     
     
     <summary type="html">&lt;p&gt;在去年，我购买了人生中第一块华为智能手表。没错，它是华为watch4。到现在，它依旧好用。我很喜欢这块手表，即使它并不能算是全智能手表，不能升级鸿蒙5.0，但我依旧喜欢。华为watch4的做工很不错，一年了看它依旧很美。我换了一个蓝色的表带，感觉它还能战3年。&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>使用Hexo搭建博客</title>
-    <link href="https://www.leguanderen.com/article/shi-yong-hexo-da-jian-bo-ke.html"/>
-    <id>https://www.leguanderen.com/article/shi-yong-hexo-da-jian-bo-ke.html</id>
-    <published>2025-10-06T11:51:59.000Z</published>
-    <updated>2025-10-06T12:04:39.795Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;使用Hexo搭建博客&quot;&gt;&lt;a href=&quot;#使用Hexo搭建博客&quot; class=&quot;headerlink&quot; title=&quot;使用Hexo搭建博客&quot;&gt;&lt;/a&gt;使用Hexo搭建博客&lt;/h1&gt;&lt;p&gt;在这以前我一直使用halo作为博客程序，将服务器放于本地的NAS中。这样做节省成本，但是本着折腾的原则我还是选择了hexo。&lt;/p&gt;
-&lt;p&gt;hexo是一个静态博客生成器。静态博客的优点很多，比如可以直接部署到GitHub pages上，不用购买服务器，维护方便。&lt;/p&gt;</summary>
     
     
     
