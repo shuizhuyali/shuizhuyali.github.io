@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>乐观的人</title>
+  <icon>https://www.leguanderen.com/icon.png</icon>
+  
+  <link href="https://www.leguanderen.com/rss.xml" rel="self"/>
+  
+  <link href="https://www.leguanderen.com/"/>
+  <updated>2025-10-10T11:58:20.906Z</updated>
+  <id>https://www.leguanderen.com/</id>
+  
+  <author>
+    <name>乐观的人</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>发现了网易云音乐使用的新姿势</title>
+    <link href="https://www.leguanderen.com/article/fa-xian-liao-wang-yi-yun-yin-le-shi-yong-de-xin-zi-shi.html"/>
+    <id>https://www.leguanderen.com/article/fa-xian-liao-wang-yi-yun-yin-le-shi-yong-de-xin-zi-shi.html</id>
+    <published>2025-10-10T11:51:23.000Z</published>
+    <updated>2025-10-10T11:58:20.906Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我之前开通了网易云音乐的黑胶会员，一直就在听每日推荐和我收藏的歌曲。平时写博文就戴着耳机听音乐。今天忽然发现了一个宝藏功能：漫游模式。这个功能可以根据你的使用场景来选择播放的音乐。我选择了专注模式。你别说，还真挺专注。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="微头条" scheme="https://www.leguanderen.com/tags/%E5%BE%AE%E5%A4%B4%E6%9D%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>闲置车库改居住卧室</title>
+    <link href="https://www.leguanderen.com/article/xian-zhi-che-ku-gai-ju-zhu-wo-shi.html"/>
+    <id>https://www.leguanderen.com/article/xian-zhi-che-ku-gai-ju-zhu-wo-shi.html</id>
+    <published>2025-10-10T05:17:28.000Z</published>
+    <updated>2025-10-10T06:14:45.010Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我家里有一个闲置的车库，早年因为一些原因装修了一下。里面买好了家具，可以充当一个房间居住。但现在已经用不到了。这个车库曾经出租过几年，但随着现在的租户不续租以后，因为大环境不好已经没有租客了。这里顺理成章的成为了我的私家小屋，车库在一楼，出门就是楼下，小区的绿化带就是我的“</summary>
+        
+      
+    
+    
+    
+    <category term="微头条" scheme="https://www.leguanderen.com/categories/%E5%BE%AE%E5%A4%B4%E6%9D%A1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>中国电信大湾区蓝卡澳门版评测</title>
+    <link href="https://www.leguanderen.com/article/zhong-guo-dian-xin-da-wan-qu-lan-qia-ao-men-ban-ping-ce.html"/>
+    <id>https://www.leguanderen.com/article/zhong-guo-dian-xin-da-wan-qu-lan-qia-ao-men-ban-ping-ce.html</id>
+    <published>2025-10-10T04:15:21.000Z</published>
+    <updated>2025-10-10T04:17:51.700Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因为&lt;a href=&quot;https://www.leguanderen.com/article/gu-ge-zhang-hao-shi-yong-ao-men-shou-ji-hao-tong-guo-yan-zheng-fang-fa.html&quot;&gt;要注册谷歌账号的问题&lt;/a&gt;我需要一张境外电话卡，在网上找了好久，最后我选择了中国电信大湾区蓝卡澳门版。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>谷歌账号使用澳门手机号通过验证方法</title>
+    <link href="https://www.leguanderen.com/article/gu-ge-zhang-hao-shi-yong-ao-men-shou-ji-hao-tong-guo-yan-zheng-fang-fa.html"/>
+    <id>https://www.leguanderen.com/article/gu-ge-zhang-hao-shi-yong-ao-men-shou-ji-hao-tong-guo-yan-zheng-fang-fa.html</id>
+    <published>2025-10-09T12:57:52.000Z</published>
+    <updated>2025-10-09T12:59:48.105Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我曾经注册过很多个谷歌账号，但无一例外的都被封禁。起初我以为可能是IP的问题，IP可能不干净。于是我换了几个其他IP，可最后都是会跳到验证手机号这一步然后提示此手机号无法进行验证。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>360智能摄像头9PRO通过Onvif协议接入NVR设备</title>
+    <link href="https://www.leguanderen.com/article/360-zhi-neng-she-xiang-tou-9pro-tong-guo-onvif-xie-yi-jie-ru-nvr-she-bei.html"/>
+    <id>https://www.leguanderen.com/article/360-zhi-neng-she-xiang-tou-9pro-tong-guo-onvif-xie-yi-jie-ru-nvr-she-bei.html</id>
+    <published>2025-10-09T05:51:59.000Z</published>
+    <updated>2025-10-09T06:37:19.435Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;自从家里买了一个绿联NAS以后我就开始折腾NAS的用途。家里有一个360的智能摄像头，我就想着怎么样把内存卡里的监控视频转存到NAS设备里。360摄像头官方虽然没有做直接转存NAS的功能，但它支持Onvif协议。于是，灵感来了。虽然没有做直接转存的功能，但是它支持Onvif模式啊！这就好办了！ 核心思路：在NAS上安装Easy NVR，配置Onvif参数，设置录像转存。完美！ 本文以电脑版Easy NVR为例，NAS版本绿联官方已在应用中心推送，按照官方文档安装即可。具体配置参考下文。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>

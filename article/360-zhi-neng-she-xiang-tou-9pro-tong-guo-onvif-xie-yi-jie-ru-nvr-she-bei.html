@@ -22,19 +22,32 @@
     var CONFIG = {"hostname":"www.leguanderen.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":5},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="乐观的人的官方站点">
-<meta property="og:type" content="website">
-<meta property="og:title" content="文章类别">
-<meta property="og:url" content="https://www.leguanderen.com/categories/index.html">
+  <meta name="description" content="前言自从家里买了一个绿联NAS以后我就开始折腾NAS的用途。家里有一个360的智能摄像头，我就想着怎么样把内存卡里的监控视频转存到NAS设备里。360摄像头官方虽然没有做直接转存NAS的功能，但它支持Onvif协议。于是，灵感来了。虽然没有做直接转存的功能，但是它支持Onvif模式啊！这就好办了！ 核心思路：在NAS上安装Easy NVR，配置Onvif参数，设置录像转存。完美！ 本文以电脑版Ea">
+<meta property="og:type" content="article">
+<meta property="og:title" content="360智能摄像头9PRO通过Onvif协议接入NVR设备">
+<meta property="og:url" content="https://www.leguanderen.com/article/360-zhi-neng-she-xiang-tou-9pro-tong-guo-onvif-xie-yi-jie-ru-nvr-she-bei.html">
 <meta property="og:site_name" content="乐观的人">
-<meta property="og:description" content="乐观的人的官方站点">
+<meta property="og:description" content="前言自从家里买了一个绿联NAS以后我就开始折腾NAS的用途。家里有一个360的智能摄像头，我就想着怎么样把内存卡里的监控视频转存到NAS设备里。360摄像头官方虽然没有做直接转存NAS的功能，但它支持Onvif协议。于是，灵感来了。虽然没有做直接转存的功能，但是它支持Onvif模式啊！这就好办了！ 核心思路：在NAS上安装Easy NVR，配置Onvif参数，设置录像转存。完美！ 本文以电脑版Ea">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-10-10T06:09:19.000Z">
-<meta property="article:modified_time" content="2025-10-10T06:12:07.615Z">
+<meta property="og:image" content="https://www.leguanderen.com/images2/1.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/2.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/3.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/4.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/5.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/6.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/7.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/8.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/9.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/10.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/11.jpeg">
+<meta property="og:image" content="https://www.leguanderen.com/images2/12.jpeg">
+<meta property="article:published_time" content="2025-10-09T05:51:59.000Z">
+<meta property="article:modified_time" content="2025-10-09T06:37:19.435Z">
 <meta property="article:author" content="乐观的人">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.leguanderen.com/images2/1.jpeg">
 
-<link rel="canonical" href="https://www.leguanderen.com/categories/">
+<link rel="canonical" href="https://www.leguanderen.com/article/360-zhi-neng-she-xiang-tou-9pro-tong-guo-onvif-xie-yi-jie-ru-nvr-she-bei.html">
 
 
 <script id="page-configurations">
@@ -42,13 +55,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>文章类别 | 乐观的人
-</title>
+  <title>360智能摄像头9PRO通过Onvif协议接入NVR设备 | 乐观的人</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-56BCELXJG0"></script>
     <script>
@@ -212,51 +224,150 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.leguanderen.com/article/360-zhi-neng-she-xiang-tou-9pro-tong-guo-onvif-xie-yi-jie-ru-nvr-she-bei.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="乐观的人">
+      <meta itemprop="description" content="乐观的人的官方站点">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="乐观的人">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          360智能摄像头9PRO通过Onvif协议接入NVR设备
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">文章类别
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2025-10-09 13:51:59 / 修改时间：14:37:19" itemprop="dateCreated datePublished" datetime="2025-10-09T13:51:59+08:00">2025-10-09</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>924</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>自从家里买了一个绿联NAS以后我就开始折腾NAS的用途。家里有一个360的智能摄像头，我就想着怎么样把内存卡里的监控视频转存到NAS设备里。360摄像头官方虽然没有做直接转存NAS的功能，但它支持Onvif协议。于是，灵感来了。虽然没有做直接转存的功能，但是它支持Onvif模式啊！这就好办了！ 核心思路：在NAS上安装Easy NVR，配置Onvif参数，设置录像转存。完美！ 本文以电脑版Easy NVR为例，NAS版本绿联官方已在应用中心推送，按照官方文档安装即可。具体配置参考下文。</p>
+<span id="more"></span>
+
+<p><img src="/images2/1.jpeg" alt="1"></p>
+<h2 id="如何通过NVR协议连接Easy-NVR将录像转存至NAS？"><a href="#如何通过NVR协议连接Easy-NVR将录像转存至NAS？" class="headerlink" title="如何通过NVR协议连接Easy NVR将录像转存至NAS？"></a>如何通过NVR协议连接Easy NVR将录像转存至NAS？</h2><p>1.将电脑连接至摄像头同一网络并下载安装ONVIF 解压后，点击图上第一个安装。</p>
+<p><img src="/images2/2.jpeg" alt="2"></p>
+<p>2.一路点击下一步即可。 2.打开360智慧生活——摄像头设置——其他设置——打开Onvif模式，Onvif鉴权开关，设置好Onvif密码。（必须设置密码，否则无法登录）保存。然后返回，点击设置中最上方的图标——网络信息，记录下摄像头的IP地址。</p>
+<p><img src="/images2/3.jpeg" alt="3"></p>
+<p>3.打开摄像头并连接网络，然后打开ONVIF，如下图。</p>
+<p><img src="/images2/4.jpeg" alt="4"></p>
+<p>在NIC选项中下拉菜单点击自己目前连接的网络和IP。如：WLAN 点击下方的Discover Devices 进行扫描。选择摄像头的IP地址（第二步记录下的地址）</p>
+<p><img src="/images2/5.jpeg" alt="5"></p>
+<p>记录下Device Service Address中的端口号 8899 4.安装Easy NVR（根据自己的电脑版本下载） 官网：<a target="_blank" rel="noopener" href="https://www.easynvr.com/">https://www.easynvr.com/</a> 解压后点击图中选中程序即可安装Easy NVR</p>
+<p><img src="/images2/6.jpeg" alt="6"></p>
+<p>安装会弹出一个黑框，不用管，一直等待跳出浏览器打开登录页面。</p>
+<p><img src="/images2/7.jpeg" alt="7"></p>
+<p>5.登录Easy NVR</p>
+<p><img src="/images2/8.jpeg" alt="8"></p>
+<p>输入初始账号密码： 账号：admin 密码：admin 进入后点击局域网——确定——根据需要重置账号密码——重新登录</p>
+<p><img src="/images2/9.jpeg" alt="9"></p>
+<p><img src="/images2/10.jpeg" alt="10"></p>
+<p>6.点击左侧设备列表——添加——协议类型选择ONVIF IP选择摄像头的IP地址 端口填写第三步在ONVIF中获取的端口 用户名填写admin 密码填写你设置的Onvif密码（在第二步中设置的Onvif密码）名称随便填，其他的不用管。 点击确定 7.在设备卡片中点击通道列表，即可看到双通道摄像头，点击开始播放按钮，即可看到摄像头画面。</p>
+<p><img src="/images2/11.jpeg" alt="11"></p>
+<p><img src="/images2/12.jpeg" alt="12"></p>
+<p>录像保存等更多功能可以自行研究或者查看官网教程。</p>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://t.me/leguanderen">
+            <span class="icon">
+              <i class="fab fa-telegram"></i>
+            </span>
+
+            <span class="label">Telegram</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/rss.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/article/kai-shi-zai-tou-tiao-hao-shang-xie-wen-zhang.html" rel="prev" title="开始在头条号上写文章">
+      <i class="fa fa-chevron-left"></i> 开始在头条号上写文章
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/article/gu-ge-zhang-hao-shi-yong-ao-men-shou-ji-hao-tong-guo-yan-zheng-fang-fa.html" rel="next" title="谷歌账号使用澳门手机号通过验证方法">
+      谷歌账号使用澳门手机号通过验证方法 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="category-all-page">
-            <div class="category-all-title">
-              目前共计 1 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BE%AE%E5%A4%B4%E6%9D%A1/">微头条</a><span class="category-list-count">1</span></li></ul>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -307,6 +418,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87NVR%E5%8D%8F%E8%AE%AE%E8%BF%9E%E6%8E%A5Easy-NVR%E5%B0%86%E5%BD%95%E5%83%8F%E8%BD%AC%E5%AD%98%E8%87%B3NAS%EF%BC%9F"><span class="nav-number">1.1.</span> <span class="nav-text">如何通过NVR协议连接Easy NVR将录像转存至NAS？</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
