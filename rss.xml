@@ -6,7 +6,7 @@
   <link href="https://www.leguanderen.com/rss.xml" rel="self"/>
   
   <link href="https://www.leguanderen.com/"/>
-  <updated>2025-10-10T11:58:20.906Z</updated>
+  <updated>2025-10-21T07:40:01.242Z</updated>
   <id>https://www.leguanderen.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从上海回了家</title>
+    <link href="https://www.leguanderen.com/article/cong-shang-hai-hui-liao-jia.html"/>
+    <id>https://www.leguanderen.com/article/cong-shang-hai-hui-liao-jia.html</id>
+    <published>2025-10-21T07:22:39.000Z</published>
+    <updated>2025-10-21T07:40:01.242Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;就在昨天，和家里人一起坐着高铁从上海回了家。我们这次去上海一共玩了两天，加上来回的路程一共是四天。因为时间限制，我们只去了几个有名的景点。南京步行街，外滩，东方明珠，上海博物馆，陆家嘴，豫园。现在数一数其实也不算少。在两天这么紧凑的时间里玩了这么多景点也算可以了。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>发现了网易云音乐使用的新姿势</title>
@@ -80,21 +95,6 @@
     
     
     <summary type="html">&lt;p&gt;我曾经注册过很多个谷歌账号，但无一例外的都被封禁。起初我以为可能是IP的问题，IP可能不干净。于是我换了几个其他IP，可最后都是会跳到验证手机号这一步然后提示此手机号无法进行验证。&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>360智能摄像头9PRO通过Onvif协议接入NVR设备</title>
-    <link href="https://www.leguanderen.com/article/360-zhi-neng-she-xiang-tou-9pro-tong-guo-onvif-xie-yi-jie-ru-nvr-she-bei.html"/>
-    <id>https://www.leguanderen.com/article/360-zhi-neng-she-xiang-tou-9pro-tong-guo-onvif-xie-yi-jie-ru-nvr-she-bei.html</id>
-    <published>2025-10-09T05:51:59.000Z</published>
-    <updated>2025-10-09T06:37:19.435Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;自从家里买了一个绿联NAS以后我就开始折腾NAS的用途。家里有一个360的智能摄像头，我就想着怎么样把内存卡里的监控视频转存到NAS设备里。360摄像头官方虽然没有做直接转存NAS的功能，但它支持Onvif协议。于是，灵感来了。虽然没有做直接转存的功能，但是它支持Onvif模式啊！这就好办了！ 核心思路：在NAS上安装Easy NVR，配置Onvif参数，设置录像转存。完美！ 本文以电脑版Easy NVR为例，NAS版本绿联官方已在应用中心推送，按照官方文档安装即可。具体配置参考下文。&lt;/p&gt;</summary>
     
     
     
